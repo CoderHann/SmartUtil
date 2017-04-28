@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SmartUtil/SmartUtil.xcodeproj">
+      location = "group:SmartUtilExample/SmartUtilExample.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:SmartUtilExamples/SmartUtilExamples.xcodeproj">
+      location = "group:SmartUtil/SmartUtil.xcodeproj">
    </FileRef>
 </Workspace>

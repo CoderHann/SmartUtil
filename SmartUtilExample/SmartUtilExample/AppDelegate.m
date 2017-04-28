@@ -1,12 +1,16 @@
 //
 //  AppDelegate.m
-//  SmartUtilExamples
+//  SmartUtilExample
 //
-//  Created by roki on 2017/4/26.
+//  Created by roki on 2017/4/28.
 //  Copyright © 2017年 CoderHann. All rights reserved.
 //
 
 #import "AppDelegate.h"
+
+#import <SmartUtil/SmartUtil.h>
+
+//@import SmartUtil;
 
 @interface AppDelegate ()
 
@@ -17,6 +21,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [TestLog methodOne];
+    [TestLog methodTwo];
+    
     return YES;
 }
 

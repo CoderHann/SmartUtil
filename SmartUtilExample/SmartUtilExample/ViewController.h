@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  SmartUtilExamples
+//  SmartUtilExample
 //
-//  Created by roki on 2017/4/26.
+//  Created by roki on 2017/4/28.
 //  Copyright © 2017年 CoderHann. All rights reserved.
 //
 
