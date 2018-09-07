@@ -89,28 +89,28 @@ Pod::Spec.new do |s|
   #
 
   #  开发使用此选项
-#  s.public_header_files = "SmartUtil", "SmartUtil/**/*.h"
-#  s.source_files  = "SmartUtil", "SmartUtil/**/*.{h,m}"
+  s.public_header_files = "SmartUtil", "SmartUtil/**/*.h"
+  s.source_files  = "SmartUtil", "SmartUtil/**/*.{h,m}"
 
   #  发布pod使用此选项
   
-  s.public_header_files = 'SmartUtil', 'SmartUtil/SmartUtil.h'
-  s.source_files = 'SmartUtil/SmartUtil.h'
-
-  s.subspec 'AClass' do |ss|
-      ss.public_header_files = 'SmartUtil/**/A*.h'
-      ss.source_files = 'SmartUtil/**/A*.{h,m}'
-  end
-
-  s.subspec 'BClass' do |ss|
-      ss.public_header_files = 'SmartUtil/**/B*.h'
-      ss.source_files = 'SmartUtil/**/B*.{h,m}'
-  end
-
-  s.subspec 'CClass' do |ss|
-      ss.public_header_files = 'SmartUtil/**/C*.h'
-      ss.source_files = 'SmartUtil/**/C*.{h,m}'
-  end
+#  s.public_header_files = 'SmartUtil', 'SmartUtil/SmartUtil.h'
+#  s.source_files = 'SmartUtil/SmartUtil.h'
+#
+#  s.subspec 'AClass' do |ss|
+#      ss.public_header_files = 'SmartUtil/**/A*.h'
+#      ss.source_files = 'SmartUtil/**/A*.{h,m}'
+#  end
+#
+#  s.subspec 'BClass' do |ss|
+#      ss.public_header_files = 'SmartUtil/**/B*.h'
+#      ss.source_files = 'SmartUtil/**/B*.{h,m}'
+#  end
+#
+#  s.subspec 'CClass' do |ss|
+#      ss.public_header_files = 'SmartUtil/**/C*.h'
+#      ss.source_files = 'SmartUtil/**/C*.{h,m}'
+#  end
 
 
   # s.exclude_files = "Classes/Exclude"
