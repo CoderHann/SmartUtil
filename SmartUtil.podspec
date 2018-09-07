@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SmartUtil"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "smart Utils for IOS Development!"
 
   # This description is used to generate tags and improve search results.
@@ -94,12 +94,12 @@ Pod::Spec.new do |s|
 
   #  发布pod使用此选项
   
-  s.public_header_files = 'SmartUtil", "SmartUtil/SmartUtil.h'
+  s.public_header_files = 'SmartUtil', 'SmartUtil/SmartUtil.h'
   s.source_files = 'SmartUtil/SmartUtil.h'
 
   s.subspec 'AClass' do |ss|
-      ss.public_header_files = 'SmartUtil/AClass/*.h'
-      ss.source_files = 'SmartUtil/AClass/*.{h,m}'
+      ss.public_header_files = 'SmartUtil/**/A*.h'
+      ss.source_files = 'SmartUtil/**/A*.{h,m}'
   end
 
   s.subspec 'BClass' do |ss|
