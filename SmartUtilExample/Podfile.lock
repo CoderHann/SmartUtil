@@ -1,0 +1,16 @@
+PODS:
+  - SmartUtil (0.0.1)
+
+DEPENDENCIES:
+  - SmartUtil (from `../`)
+
+EXTERNAL SOURCES:
+  SmartUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SmartUtil: fa1f781bb27362dd500d0b296acffca650a34d79
+
+PODFILE CHECKSUM: 3d9e5b7f3bbf94420e38ac47ea5f7288f750bfc1
+
+COCOAPODS: 1.5.3
