@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SmartUtil"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "smart Utils for IOS Development!"
 
   # This description is used to generate tags and improve search results.
