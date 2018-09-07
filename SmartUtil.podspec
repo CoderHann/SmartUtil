@@ -94,7 +94,8 @@ Pod::Spec.new do |s|
 
   #  发布pod使用此选项
   
-  s.public_header_files = "SmartUtil", "SmartUtil/SmartUtil.h"
+  s.public_header_files = 'SmartUtil", "SmartUtil/SmartUtil.h'
+  s.source_files = 'SmartUtil/SmartUtil.h'
 
   s.subspec 'AClass' do |ss|
       ss.public_header_files = 'SmartUtil/AClass/*.h'

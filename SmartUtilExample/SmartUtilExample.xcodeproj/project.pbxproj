@@ -16,7 +16,6 @@
 		FCE8043E1EB2EB6200DA7C74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE8043C1EB2EB6200DA7C74 /* LaunchScreen.storyboard */; };
 		FCE804491EB2EB6200DA7C74 /* SmartUtilExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE804481EB2EB6200DA7C74 /* SmartUtilExampleTests.m */; };
 		FCE804541EB2EB6200DA7C74 /* SmartUtilExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE804531EB2EB6200DA7C74 /* SmartUtilExampleUITests.m */; };
-		FCE804671EB2FB7800DA7C74 /* SmartUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE804661EB2FB7800DA7C74 /* SmartUtil.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE804671EB2FB7800DA7C74 /* SmartUtil.framework in Frameworks */,
 				2A52D67A47F7AF460E2DF1FC /* libPods-SmartUtilExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,6 +566,7 @@
 				FCE8045A1EB2EB6200DA7C74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCE8045B1EB2EB6200DA7C74 /* Build configuration list for PBXNativeTarget "SmartUtilExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +575,7 @@
 				FCE8045D1EB2EB6200DA7C74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCE8045E1EB2EB6200DA7C74 /* Build configuration list for PBXNativeTarget "SmartUtilExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +584,7 @@
 				FCE804601EB2EB6200DA7C74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

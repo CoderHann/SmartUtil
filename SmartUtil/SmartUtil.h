@@ -19,7 +19,6 @@ FOUNDATION_EXPORT const unsigned char SmartUtilVersionString[];
 #ifndef _SMARTUTIL_
 #define _SMARTUTIL_
 
-#import <SmartUtil/TestLog.h>
 #import <SmartUtil/AOne.h>
 #import <SmartUtil/BOne.h>
 
