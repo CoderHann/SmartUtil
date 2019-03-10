@@ -71,4 +71,18 @@
     
     return UDID;
 }
+
++ (BOOL)isPhonexSeries {
+    if (@available(iOS 11.0, *)) {
+        UIWindow *mainWindow = [UIApplication sharedApplication].keyWindow;
+        if (mainWindow.safeAreaInsets.top > 20 || mainWindow.safeAreaInsets.left > 0 || mainWindow.safeAreaInsets.bottom > 0) {
+            return YES;
+        } else {
+            return NO;
+        }
+    } else {
+        return NO;
+    }
+}
+
 @end

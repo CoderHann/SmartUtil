@@ -10,4 +10,6 @@
 
 @interface UIDevice (UDID)
 + (NSString *)deviceUDID;
+
++ (BOOL)isPhonexSeries;
 @end

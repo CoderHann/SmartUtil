@@ -14,3 +14,7 @@
 static inline UIFont* su_font(CGFloat size) {
     return [UIFont systemFontOfSize:size];
 }
+
+static inline UIFont* su_boldFont(CGFloat size) {
+    return [UIFont boldSystemFontOfSize:size];
+}
