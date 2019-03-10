@@ -16,6 +16,9 @@
  @return line
  */
 + (UIView *)lineWithColor:(UIColor *)color;
+
+- (void)removeAllSubviews;
+
 @end
 static inline UIView* su_line(UIColor *color) {
     UIView *line = [[UIView alloc] init];

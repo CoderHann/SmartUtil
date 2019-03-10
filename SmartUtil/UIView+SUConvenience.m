@@ -14,4 +14,12 @@
     line.backgroundColor = color;
     return line;
 }
+
+- (void)removeAllSubviews {
+    NSArray *subviews = [NSArray arrayWithArray:self.subviews];
+    
+    for (UIView *view in subviews) {
+        [view removeFromSuperview];
+    }
+}
 @end
