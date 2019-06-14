@@ -10,4 +10,11 @@
 
 @implementation NSString (Util)
 
+- (CGSize)su_needSizeWithFont:(CGFloat)font maxSize:(CGSize)size {
+    return [self boundingRectWithSize:size
+                              options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading
+                           attributes:@{NSFontAttributeName: [UIFont systemFontOfSize:font]}
+                              context:nil].size;
+}
+
 @end

@@ -10,6 +10,10 @@
 
 @interface NSString (Util)
 
+/**
+ 根据字体大小和最大矩形算出适合的size
+ */
+- (CGSize)su_needSizeWithFont:(CGFloat)font maxSize:(CGSize)size;
 @end
 static inline NSString* su_noBlankString(NSString *string) {
     if (!string || [string isKindOfClass:[NSNull class]]) {
