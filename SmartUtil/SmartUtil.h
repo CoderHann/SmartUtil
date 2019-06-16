@@ -34,4 +34,5 @@ FOUNDATION_EXPORT const unsigned char SmartUtilVersionString[];
 #import <SmartUtil/SUConfig.h>
 #import <SmartUtil/SUAlertController.h>
 #import <SmartUtil/UIImage+SUImage.h>
+#import <SmartUtil/SUGuideContentView.h>
 #endif
